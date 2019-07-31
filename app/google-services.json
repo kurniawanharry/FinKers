@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "292652660243",
+    "firebase_url": "https://finkers-9d457.firebaseio.com",
+    "project_id": "finkers-9d457",
+    "storage_bucket": "finkers-9d457.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292652660243:android:949553c02979b29d",
+        "android_client_info": {
+          "package_name": "com.harry.finkers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292652660243-6gc5r9vfk686jb4q8j9um8kj6sigkdps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.harry.finkers",
+            "certificate_hash": "1c5db4399a248efdfb21cfa19150c536028a8e53"
+          }
+        },
+        {
+          "client_id": "292652660243-e22lke3bfm9pshqs6tfa9o4715o4bkc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3GkTvvHs5RSsxvk8SIH_xf0AbYOgWtxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292652660243-e22lke3bfm9pshqs6tfa9o4715o4bkc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

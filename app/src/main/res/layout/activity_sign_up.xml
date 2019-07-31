@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BiruSailingBiru"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="70dp"
+            android:text="FINKERS"
+            android:textColor="@color/PutihSailing"
+            android:textSize="40dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/EditText_SignUp_Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="@android:color/white"
+            android:inputType="textCapWords"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="@color/PutihSailing"
+            android:hint="Username"
+            android:textColorHint="@color/PutihSailing"
+            android:textSize="15dp" />
+
+        <EditText
+            android:textColor="@android:color/white"
+            android:id="@+id/EditText_SignUp_Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="@color/PutihSailing"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:textColorHint="@color/PutihSailing"
+            android:textSize="15dp" />
+
+        <EditText
+            android:textColor="@android:color/white"
+            android:id="@+id/EditText_SignUp_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="@color/PutihSailing"
+            android:hint="Password"
+            android:textColorHint="@color/PutihSailing"
+            android:textSize="15dp"
+            android:inputType="textPassword"
+            />
+
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/button_round"
+            android:text="Sign up"
+            android:textColor="@color/PutihSailing"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textview_signin_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="have an Account? Sign in"
+            android:textColor="@color/PutihSailing" />
+
+    </LinearLayout>
+
+</LinearLayout>

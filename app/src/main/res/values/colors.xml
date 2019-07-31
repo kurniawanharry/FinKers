@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E65C4F</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="BiruSailingBiru">#33678A</color>
+    <color name="BiruSailingBiasa">#78A6C9</color>
+    <color name="PutihSailing">#EAEFF3</color>
+    <color name="MerahSailing">#E65C4F</color>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BiruSailingBiru"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="70dp"
+            android:text="FINKERS"
+            android:textColor="@color/PutihSailing"
+            android:textSize="40dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/EditText_Signin_Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edittext_round"
+            android:hint="Email or Username"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/EditText_Signin_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/edittext_round"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnSignin"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/button_round"
+            android:text="Sign in"
+            android:textAllCaps="false"
+            android:textColor="@color/PutihSailing"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textview_forgot_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Forgot your login details? Help"
+            android:textColor="@color/PutihSailing"
+            android:textSize="12dp" />
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="-"
+            android:textAllCaps="false"
+            android:textColor="@color/PutihSailing" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="OR"
+            android:textColor="@color/PutihSailing" />
+
+        <TextView
+            android:id="@+id/textview_forgot_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_round"
+            android:gravity="center"
+            android:text="Don't have an account? Sign up"
+            android:textColor="@color/PutihSailing"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
